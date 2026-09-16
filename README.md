@@ -1,9 +1,32 @@
-<<<<<<< HEAD
-# Vue 3 + Vite
+# Praktikum Pemrograman Web 2
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Deskripsi
+Aplikasi sederhana menggunakan Laravel sebagai backend dan Vue sebagai frontend.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
-=======
-# latihan_laravel_ric
->>>>>>> eb0ef25f984764175c21b50d9d6821e0f25e2681
+## Teknologi
+- PHP dan Laravel
+- Composer
+- Vue dan Vite
+- Node.js dan NPM
+- MySQL
+- Git
+
+## Instalasi Backend
+```bash
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
+## Instalasi Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Arsitektur
+Browser -> Vue -> Laravel API -> Database
