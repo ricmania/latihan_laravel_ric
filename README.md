@@ -1,4 +1,8 @@
 # Praktikum Pemrograman Web 2
+# Ricko Syahputra
+# NIM 24454010023
+# prodi TI semester 5
+# tanggal 16-09-2026
 
 ## Deskripsi
 Aplikasi sederhana menggunakan Laravel sebagai backend dan Vue sebagai frontend.
